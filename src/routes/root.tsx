@@ -1,8 +1,10 @@
+import Balance from "../Components/Balance.tsx";
+
 function Root() {
     return (
-        <h1 className="text-3xl">
-            Hello world!
-        </h1>
+        <div className="m-96">
+            <Balance/>
+        </div>
     );
 }
 
