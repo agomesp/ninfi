@@ -8,12 +8,17 @@ const categoryMock: Array<ICategory> = [
     {
         id: 1,
         name: "Furniture",
-        color: "#8F49DE"
+        color: "bg-purple-400"
     },
     {
         id: 2,
         name: "Electronics",
-        color: "#167B7D"
+        color: "bg-cyan-400"
+    },
+    {
+        id: 3,
+        name: "Job Income",
+        color: "bg-green-400"
     }
 ]
 
