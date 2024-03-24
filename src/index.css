@@ -21,6 +21,12 @@ body {
   font-size: 1.6rem;
 }
 
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
 img {
   display: block;
   max-width: 100%;
