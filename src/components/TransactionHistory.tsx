@@ -1,5 +1,5 @@
-import transactions, {ITransaction} from "../Mocks/Transactions.ts";
-import categories from "../Mocks/Categories.ts";
+import transactions, {ITransaction} from "../mocks/Transactions.ts";
+import categories from "../mocks/Categories.ts";
 
 const TransactionHistory = () => {
     const getCategory = (transaction: ITransaction) => {

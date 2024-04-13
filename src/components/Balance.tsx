@@ -1,5 +1,5 @@
 import {FiPlus, FiMinus} from "react-icons/fi";
-import transactions from "../Mocks/Transactions";
+import transactions from "../mocks/Transactions";
 import {useEffect, useState} from "react";
 
 const Balance = () => {

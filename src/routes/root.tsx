@@ -1,5 +1,5 @@
-import Balance from "../Components/Balance.tsx";
-import TransactionHistory from "../Components/TransactionHistory.tsx";
+import Balance from "../components/Balance.tsx";
+import TransactionHistory from "../components/TransactionHistory.tsx";
 
 const Root = () => {
     return (
