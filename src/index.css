@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
 html {
   /*font-size: 62.5%; !* (62.5/100) * 16px = 10px *!*/
   -webkit-text-size-adjust: none; /* for iOS Safari */
@@ -36,4 +27,8 @@ img {
   html {
     scroll-behavior: smooth;
   }
+}
+
+.bg-popover {
+  background-color: white;
 }

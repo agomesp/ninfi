@@ -1,5 +1,6 @@
 import transactions, {ITransaction} from "../mocks/Transactions.ts";
 import categories from "../mocks/Categories.ts";
+import {Button} from "@/components/ui/button.tsx";
 
 const TransactionHistory = () => {
     const getCategory = (transaction: ITransaction) => {
@@ -25,9 +26,7 @@ const TransactionHistory = () => {
                 }
             </div>
             <div className="w-28 m-auto mt-4">
-                <button className="w-28 text-sm font-bold border-solid px-4 py-1 border-2 rounded-xl border-gray-950">See
-                    More
-                </button>
+                <Button variant="outline">See More</Button>
             </div>
         </div>
     );

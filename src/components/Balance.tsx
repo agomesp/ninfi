@@ -1,6 +1,7 @@
 import {FiPlus, FiMinus} from "react-icons/fi";
 import transactions from "../mocks/Transactions";
 import {useEffect, useState} from "react";
+import PopoverMoveBalance from "@/components/PopoverMoveBalance.tsx";
 
 const Balance = () => {
     const [totalBalance, setTotalBalance] = useState<number>(0);
@@ -20,8 +21,10 @@ const Balance = () => {
             <div className="flex items-center gap-2">
                 <h1 className="text-9xl font-semibold">{totalBalance}</h1>
                 <div className="flex flex-col gap-2 justify-between">
-                    <button className="border border-solid rounded-full p-2 border-green-500 hover:bg-green-50"><FiPlus
-                        className="stroke-green-500"/></button>
+                    <PopoverMoveBalance trigger={<button
+                        className="border border-solid rounded-full p-2 border-green-500 hover:bg-green-50"><FiPlus
+                        className="stroke-green-500"/></button>}/>
+
                     <button className="border border-solid rounded-full p-2 border-red-500 hover:bg-red-50"><FiMinus
                         className="stroke-red-500"/></button>
                 </div>
